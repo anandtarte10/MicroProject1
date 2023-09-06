@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.firstpart{
+    display: flex;
+    padding: 60px;
+    background-color: #FFCD9E;
+    justify-content: space-around;
+    align-items: center;
+}
+.partone{
+    width: 562px;
+}
+.firstpart h1 {
+    font-size: 36px;
+    height: 108px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #282828;
+}
+.firstpart p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #484848;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.firstpart h5{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    color: #282828;
+    padding: 10px 0px 10px 0px;
+    letter-spacing: 0em;
+
+}
+.firstpart form{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding: 20px 0px 20px 0px;
+}
+.firstpart input{
+    border: 4px solid black;
+    width: 344px;
+    border-radius:  8px; 
+    height: 64px;
+    font-size: 20px;
+    padding: 0px 4px 0px 4px;
+
+}
+.firstpart button{
+    width: 216px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #282828;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
+
+}
+.firstpart h6{
+    width: 344px;
+    height: 61px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25.6px;
+    color: #FFFFFF;
+    padding: 16px;
+}
+.vectorimage{
+    width: 575px;
+    height: 575px;
+}
+.secondpart{
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.onepart{
+    text-align: left;
+}
+.secondpart p{
+    color: #FFFFFF;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.secondpart .parttwo{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.secondpart p {
+    color: #FFFFFF;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.secondpart img {
+    width: 29.41px;
+    height: 27.42px;
+}
+.secondpart .lastp {
+    text-align: end;
+}
